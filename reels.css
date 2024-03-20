@@ -264,8 +264,8 @@
 }
 @media(max-width: 1200px) {
   .reels-container3 {
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   .reels-container5 {
     justify-content: space-between;

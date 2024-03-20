@@ -484,6 +484,9 @@
   .contact-heading {
     margin-right: var(--dl-space-space-oneandhalfunits);
   }
+  .contact-text {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
   .contact-container2 {
     margin-top: var(--dl-space-space-unit);
   }
