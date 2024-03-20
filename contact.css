@@ -544,6 +544,9 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
+  .contact-container1 {
+    align-items: flex-start;
+  }
   .contact-heading {
     width: auto;
     font-size: 2.4rem;
@@ -564,6 +567,9 @@
   }
   .contact-navlink3 {
     margin-right: 0;
+  }
+  .contact-container3 {
+    max-height: auto;
   }
   .contact-text11 {
     align-self: center;
