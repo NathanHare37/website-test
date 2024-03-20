@@ -80,19 +80,15 @@
 .reels-navlink1 {
   color: var(--dl-color-gray-700);
   width: 25%;
-  max-width: auto;
   text-align: center;
   transition: 0.3s;
   margin-left: 1rem;
-  padding-top: .5rem;
   border-width: 0px;
-  margin-right: 0rem;
   padding-left: 0px;
   padding-right: 0px;
-  text-decoration: none;
   border-top-width: 4px;
-  border-color: var(--dl-color-gray-700);
   padding-top: 4px;
+  border-color: var(--dl-color-gray-700);
 }
 .reels-navlink1:hover {
   color: var(--dl-color-gray-700);
@@ -293,14 +289,20 @@
   }
 }
 @media(max-width: 767px) {
-  .reels-heading {
-    margin-right: var(--dl-space-space-oneandhalfunits);
+  .home-heading {
+    width: auto;
+    font-size: 2.4rem;
+    align-self: center;
+    text-align: right;
+    padding-top: 0px;
+    margin-right: 0px;
   }
-  .reels-text {
-    padding-left: 300px;
+  .home-text {
+    padding-left: 0px;
+    margin-bottom: 0px;
   }
   .reels-container2 {
-    margin-top: var(--dl-space-space-unit);
+    margin-top: 0px;
   }
   .reels-iframe {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -316,10 +318,17 @@
   .reels-heading {
     width: auto;
     font-size: 2.4rem;
+    align-self: center;
+    text-align: right;
+    padding-top: 0px;
     margin-right: 0px;
   }
   .reels-text {
-    padding-left: 200px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .reels-container2 {
+    margin-top: 0px;
   }
   .reels-navlink {
     margin-left: 0;

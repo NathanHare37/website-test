@@ -113,19 +113,15 @@
 .about-navlink2 {
   color: var(--dl-color-gray-700);
   width: 25%;
-  max-width: auto;
   text-align: center;
   transition: 0.3s;
   margin-left: 1rem;
-  padding-top: .5rem;
   border-width: 0px;
-  margin-right: 0rem;
   padding-left: 0px;
   padding-right: 0px;
-  text-decoration: none;
   border-top-width: 4px;
-  border-color: var(--dl-color-gray-700);
   padding-top: 4px;
+  border-color: var(--dl-color-gray-700);
 }
 .about-navlink2:hover {
   color: var(--dl-color-gray-700);
@@ -246,7 +242,7 @@
   right: 0px;
   width: 52%;
   height: auto;
-  position: absolute;
+  position: absolute; 
   font-size: 26px;
   align-self: flex-end;
   text-align: left;
@@ -279,6 +275,7 @@
   }
   .about-text26 {
     font-size: 24px;
+    padding-top: 11rem;
   }
 }
 @media(max-width: 991px) {
@@ -287,8 +284,6 @@
   }
   .about-text26 {
     font-size: 22px;
-    padding-top: 12rem;
-    padding-right: 4rem;
   }
 }
 @media(max-width: 767px) {
@@ -319,7 +314,7 @@
   }
   .about-text26 {
     font-size: 19px;
-    margin-bottom: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-halfunit);
   }
 }
 @media(max-width: 479px) {
@@ -341,10 +336,8 @@
     margin-right: 0px;
   }
   .about-text {
-    align-self: flex-end;
-    text-align: center;
-    padding-left: 200px;
-    margin-bottom: var(--dl-space-space-unit);
+    padding-left: 0px;
+    margin-bottom: 0px;
   }
   .about-container2 {
     margin-top: 0px;
