@@ -153,6 +153,9 @@
   border-top-width: 4px;
   padding-top: 4px;
   border-color: var(--dl-color-gray-700);
+  max-width: auto;
+  margin-right: 1rem;
+  text-decoration: none;
 }
 .contact-navlink3:hover {
   color: var(--dl-color-gray-700);
@@ -408,12 +411,6 @@
   }
 }
 @media(max-width: 991px) {
-  .contact-heading {
-    margin-right: var(--dl-space-space-oneandhalfunits);
-  }
-  .contact-container02 {
-    margin-top: var(--dl-space-space-unit);
-  }
   .contact-text12 {
     font-size: 22px;
   }
@@ -474,9 +471,6 @@
   }
 }
 @media(max-width: 767px) {
-  .contact-heading {
-    margin-right: var(--dl-space-space-oneandhalfunits);
-  }
   .contact-text {
     margin-bottom: var(--dl-space-space-halfunit);
   }
@@ -561,7 +555,7 @@
   .contact-navlink3 {
     margin-right: 0;
   }
-  .contact-container3 {
+  .contact-container03 {
     max-height: auto;
   }
   .contact-text11 {
