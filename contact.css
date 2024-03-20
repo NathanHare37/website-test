@@ -479,6 +479,7 @@
   }
   .contact-container05 {
     flex-direction: column;
+    margin-top: 0%;
   }
   .contact-container06 {
     width: 100%;
@@ -548,7 +549,7 @@
   }
   .contact-container02 {
     margin-top: 0px;
-  }
+  } 
   .contact-navlink {
     margin-left: 0;
   }
