@@ -199,6 +199,7 @@
   display: flex;
   min-height: 100%;
   justify-content: space-between;
+  flex-direction: row;
 }
 .about-container5 {
   top: 0px;
@@ -232,7 +233,7 @@
   font-size: 22px;
   align-self: flex-start;
   font-style: normal;
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
   font-weight: 900;
   line-height: 0.7;
@@ -240,14 +241,14 @@
 .about-text26 {
   top: 0px;
   right: 0px;
-  width: 52%;
-  height: auto;
-  position: absolute; 
-  font-size: 26px;
+  height: auto; 
+  font-size: 22px;
   align-self: flex-end;
   text-align: left;
   padding-top: 13rem;
   margin-right: 4%;
+  margin-bottom: 0%;
+  padding-left: 45%;
 }
 .about-container6 {
   flex: 0 0 auto;
@@ -274,13 +275,13 @@
     margin-right: 2%;
   }
   .about-text26 {
-    font-size: 24px;
     padding-top: 11rem;
   }
 }
 @media(max-width: 991px) {
   .about-text11 {
     margin-top: 1rem;
+      line-height: 0.8;
   }
   .about-text26 {
     font-size: 22px;
@@ -304,13 +305,10 @@
   .about-text11 {
     width: 89%;
     height: auto;
-    font-size: 17px;
+    font-size: 18px;
     align-self: flex-start;
     margin-top: 1rem;
-    line-height: 0.7;
-  }
-  .about-text12 {
-    font-size: 15px;
+    line-height: 0.9;
   }
   .about-text26 {
     font-size: 19px;
@@ -370,12 +368,13 @@
   .about-text11 {
     align-self: center;
     margin-top: var(--dl-space-space-halfunit);
-    line-height: 0.6;
+    line-height: 0.9;
   }
   .about-text26 {
     width: 90%;
     position: static;
     font-size: 16px;
     padding-top: var(--dl-space-space-unit);
+    padding-left: 0%;
   }
 }
